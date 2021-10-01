@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PJWJS311cp1</title>
+</head>
+<body>
+    <!--I had started writing the HTML between the time I emailed you and you emailed me back, so here's a combo of what I started and what you responded with in your email-->
+    <h1>Stories</h1>
+    <h2>1. GET /stories</h2>
+    <h3>View all stories</h3>
+    <p>This allows you to see a summary (ID and title) of all stories in the db</p>
+    <button>View all stories</button>
+
+    <h2>2. GET /stories/:id</h2>
+    <h3>Get a story with by an ID</h3>
+    <p>This allows you to get one story (ID, title, and content), but using its ID to find it.</p>
+    <form>
+        <label for="storyId">Story ID:</label>
+        <input type="text" placeholder="type ID here">
+        <button>Find story</button>
+    </form>
+    
+
+    <h2>3. POST /stories</h2>
+    <h3>Create a story</h3>
+    <p>This allows you to write a story. Title is required.</p>
+    <form>
+        <label for="title">Title:</label>
+        <input type="text" placeholder="write your title here">
+        <label for="storyContent">Story Content:</label>
+        <input type="text" placeholder="write your story here">
+        <button>Submit Story</button>
+    </form>
+    
+    <h2>4. PUT /stories/:id</h2>
+    <h3>Modify a story</h3>
+    <p>This allows you to find a story by its ID and change its title or its content</p>
+    <form>
+        <label for="storyId">Story ID: </label>
+        <input type="text" placeholder="type ID here">
+        <button>submit ID</button>
+        <p> There should be a text box and submit button for each: title and content. Or maybe just one submit button for all. Or something else. I need to stop thinking about it for now.</p>
+      </form> 
+
+    <h2>5. DELETE /stories/:id</h2>
+    <h3>Delete a story</h3>
+    <p>This allows delete a story by its ID.</p>
+    <form>
+        <label for="storyId">Story ID:</label>
+        <input type="text" placeholder="type ID here">
+        <button>Delete Story</button>
+    </form>
+</body>
+</html>

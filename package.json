@@ -1,0 +1,18 @@
+{
+    "name": "js311_checkpoint_one",
+    "version": "1.0.0",
+    "description": "backend_express_w_router_controller_mysql",
+    "main": "index.js",
+    "author": "Pamela J White",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "axios": "0.18.0",
+        "dotenv": "^8.6.0",
+        "express": "^4.17.1",
+        "jest": "^24.8.0",
+        "mysql": "^2.18.1",
+        "nodemon": "1.19.1"
+    }
+}
